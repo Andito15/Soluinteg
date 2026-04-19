@@ -1,4 +1,5 @@
 import herramientaIcon from '../assets/herramientas.png'
+import '../styles/services.css'
 
 function Services() {
     const services = [

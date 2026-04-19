@@ -1,22 +1,13 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Services from './components/Services'
-import Gallery from './components/Gallery'
-import About from './components/About'
-import Footer from './components/Footer'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Trabajos from './pages/Trabajos'
 
 function App() {
     return (
-        <>
-            <Header />
-            <main>
-                <Hero />
-                <Services />
-                <Gallery />
-                <About />
-            </main>
-            <Footer />
-        </>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/trabajos" element={<Trabajos />} />
+        </Routes>
     )
 }
 

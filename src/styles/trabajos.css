@@ -1,0 +1,27 @@
+.trabajos-page {
+    min-height: 100vh;
+}
+
+.trabajos-main-title {
+    margin: 0 0 12px;
+    color: var(--color-primary);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.1;
+}
+
+.work-section {
+    margin-top: 48px;
+}
+
+.work-section-title {
+    margin: 0 0 18px;
+    color: var(--color-primary);
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+@media (max-width: 900px) {
+    .work-section-title {
+        font-size: 1.25rem;
+    }
+}

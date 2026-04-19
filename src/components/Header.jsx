@@ -1,20 +1,19 @@
+import { Link } from 'react-router-dom'
 import logo from '../assets/logo-soluinteg-solo.png'
+import '../styles/header.css'
 
 function Header() {
     return (
         <header className="header">
             <div className="container header-content">
-                <a href="#inicio" className="brand">
+                <Link to="/" className="brand">
                     <img src={logo} alt="Logo Soluinteg" className="brand-logo" />
                     <span className="brand-name">SOLUINTEG</span>
-                </a>
+                </Link>
 
                 <nav className="nav">
-                    <a href="#inicio">Inicio</a>
-                    <a href="#servicios">Servicios</a>
-                    <a href="#trabajos">Trabajos</a>
-                    <a href="#nosotros">Nosotros</a>
-                    <a href="#footer-contacto">Contacto</a>
+                    <Link to="/">Inicio</Link>
+                    <Link to="/trabajos">Trabajos</Link>
                 </nav>
             </div>
         </header>

@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom'
+import '../styles/hero.css'
+
 function Hero() {
     return (
         <section id="inicio" className="hero section">
@@ -6,11 +9,13 @@ function Hero() {
                     <p className="hero-kicker">SOLUINTEG</p>
 
                     <h1 className="hero-title">
-                        Soluciones integrales de mantenimiento y remodelación en la GAM
+                        Soluciones integrales de mantenimiento y remodelación en toda el Gran Área Metropolitana
                     </h1>
 
                     <p className="hero-description">
-                        Servicios para hogares, oficinas y espacios comerciales, con atención 24/7.
+                        Atención para hogares, oficinas y espacios comerciales, con trabajos en
+                        remodelación, electricidad, fontanería, pintura, soldadura, jardinería
+                        y estructura liviana.
                     </p>
 
                     <div className="hero-buttons">
@@ -23,20 +28,20 @@ function Hero() {
                             Solicitar información
                         </a>
 
-                        <a className="btn btn-secondary" href="#trabajos">
+                        <Link className="btn btn-secondary" to="/trabajos">
                             Ver trabajos
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
                 <div className="hero-card">
-                    <p className="hero-card-label">Servicios principales</p>
-                    <ul className="hero-card-list">
-                        <li>Remodelaciones</li>
-                        <li>Fontanería y electricidad</li>
-                        <li>Pintura interna y externa</li>
-                        <li>Soldadura y jardinería</li>
-                    </ul>
+                    <p className="hero-card-label">Cobertura y atención</p>
+
+                    <div className="hero-card-info">
+                        <p><strong>Cobertura:</strong> Toda el Gran Área Metropolitana</p>
+                        <p><strong>Atención:</strong> Disponible todos los días</p>
+                        <p><strong>Enfoque:</strong> Hogares, oficinas y espacios comerciales</p>
+                    </div>
                 </div>
             </div>
         </section>
