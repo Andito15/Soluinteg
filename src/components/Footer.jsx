@@ -38,7 +38,7 @@ function Footer() {
                     </a>
 
                     <a
-                        href="https://facebook.com/"
+                        href="https://www.facebook.com/share/1837rW5PGz/?mibextid=wwXIfr"
                         target="_blank"
                         rel="noreferrer"
                         className="footer-social-link"
