@@ -3,7 +3,7 @@ function About() {
         <section id="nosotros" className="section section-alt">
             <div className="container">
                 <div className="section-heading">
-                    <p className="section-tag">Nosotros</p>
+                    <p className="section-tag"></p>
                     <h2>Sobre SOLUINTEG</h2>
                 </div>
 

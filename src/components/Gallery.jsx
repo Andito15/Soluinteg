@@ -12,7 +12,7 @@ function Gallery() {
         <section id="trabajos" className="section">
             <div className="container">
                 <div className="section-heading">
-                    <p className="section-tag">Trabajos realizados</p>
+                    <p className="section-tag"></p>
                     <h2>Nuestros trabajos</h2>
                     <p>
                         Aquí irán las fotos de los trabajos realizados. Esta será la parte más

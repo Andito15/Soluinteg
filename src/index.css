@@ -67,7 +67,7 @@ main {
 .section-tag {
   margin: 0 0 10px;
   color: var(--color-primary-2);
-  font-size: 0.82rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -154,11 +154,10 @@ main {
 }
 
 .brand-logo {
-  width: 54px;
-  height: 54px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 12px;
-  background: #fff;
 }
 
 .brand-name {

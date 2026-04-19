@@ -1,4 +1,4 @@
-import logo from '../assets/logo-soluinteg.png'
+import logo from '../assets/logo-soluinteg-solo.png'
 
 function Header() {
     return (

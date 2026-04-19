@@ -14,8 +14,8 @@ function Services() {
         <section id="servicios" className="section section-alt">
             <div className="container">
                 <div className="section-heading">
-                    <p className="section-tag">Servicios</p>
-                    <h2>Servicios que ofrece SOLUINTEG</h2>
+                    <p className="section-tag"></p>
+                    <h2>Servicios</h2>
                 </div>
 
                 <div className="services-grid">
