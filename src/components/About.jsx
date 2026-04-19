@@ -4,7 +4,7 @@ function About() {
             <div className="container">
                 <div className="section-heading">
                     <p className="section-tag"></p>
-                    <h2>Sobre SOLUINTEG</h2>
+                    <h2>Nosotros</h2>
                 </div>
 
                 <div className="about-main card">

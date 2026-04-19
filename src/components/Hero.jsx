@@ -9,14 +9,9 @@ function Hero() {
                     <p className="hero-kicker">SOLUINTEG</p>
 
                     <h1 className="hero-title">
-                        Soluciones integrales de mantenimiento y remodelación en toda el Gran Área Metropolitana
+                        Soluciones integrales de manteniendo para tu casa, oficina o espacio comercial
                     </h1>
 
-                    <p className="hero-description">
-                        Atención para hogares, oficinas y espacios comerciales, con trabajos en
-                        remodelación, electricidad, fontanería, pintura, soldadura, jardinería
-                        y estructura liviana.
-                    </p>
 
                     <div className="hero-buttons">
                         <a
@@ -25,7 +20,7 @@ function Hero() {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Solicitar información
+                            Contáctanos
                         </a>
 
                         <Link className="btn btn-secondary" to="/trabajos">
