@@ -49,12 +49,12 @@ function Trabajos() {
                     <div className="container">
                         <div className="section-heading">
                             <p className="section-tag">Trabajos realizados</p>
-                            <h1 className="trabajos-main-title">Galería de trabajos por servicio</h1>
-                            <p>
-                                Esta sección muestra ejemplos por cada área de servicio. Luego
-                                puedes reemplazar estas imágenes de prueba por fotos reales de
-                                SOLUINTEG.
-                            </p>
+                            <h1 className="trabajos-main-title"></h1>
+                            {/*<p>*/}
+                            {/*    Esta sección muestra ejemplos por cada área de servicio. Luego*/}
+                            {/*    puedes reemplazar estas imágenes de prueba por fotos reales de*/}
+                            {/*    SOLUINTEG.*/}
+                            {/*</p>*/}
                         </div>
 
                         <WorkSlider title="Remodelaciones" images={remodelaciones} />

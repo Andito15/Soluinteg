@@ -49,9 +49,9 @@ function WorkSlider({ title, images }) {
                     ‹
                 </button>
 
-                <p className="slider-counter">
-                    {currentIndex + 1} / {images.length}
-                </p>
+                {/*<p className="slider-counter">*/}
+                {/*    {currentIndex + 1} / {images.length}*/}
+                {/*</p>*/}
 
                 <button className="slider-btn" onClick={goNext} aria-label="Imagen siguiente">
                     ›
