@@ -27,36 +27,36 @@ function WorkSlider({ title, images }) {
         <section className="work-section">
             <h2 className="work-section-title">{title}</h2>
 
-            <div className="work-slider">
+            <div className="slider-image-wrapper">
+                <div
+                    className="slider-track"
+                    style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+                >
+                    {images.map((image, index) => (
+                        <div className="slider-slide" key={index}>
+                            <img
+                                src={image}
+                                alt={`${title} ${index + 1}`}
+                                className="slider-image"
+                            />
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            <div className="slider-controls">
                 <button className="slider-btn" onClick={goPrev} aria-label="Imagen anterior">
                     ‹
                 </button>
 
-                <div className="slider-image-wrapper">
-                    <div
-                        className="slider-track"
-                        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-                    >
-                        {images.map((image, index) => (
-                            <div className="slider-slide" key={index}>
-                                <img
-                                    src={image}
-                                    alt={`${title} ${index + 1}`}
-                                    className="slider-image"
-                                />
-                            </div>
-                        ))}
-                    </div>
-                </div>
+                <p className="slider-counter">
+                    {currentIndex + 1} / {images.length}
+                </p>
 
                 <button className="slider-btn" onClick={goNext} aria-label="Imagen siguiente">
                     ›
                 </button>
             </div>
-
-            <p className="slider-counter">
-                {currentIndex + 1} / {images.length}
-            </p>
         </section>
     )
 }
