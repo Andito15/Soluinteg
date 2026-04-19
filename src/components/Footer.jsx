@@ -24,7 +24,16 @@ function Footer() {
                         className="footer-social-link"
                     >
                         <img src={whatsappIcon} alt="WhatsApp" className="footer-social-icon" />
-                        <span>7254-2310 / 8324-6572</span>
+                        <span>7254-2310</span>
+                    </a>
+                    <a
+                        href="https://wa.me/50683246572?text=Hola,%20quiero%20información%20sobre%20sus%20servicios"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="footer-social-link"
+                    >
+                        <img src={whatsappIcon} alt="WhatsApp" className="footer-social-icon" />
+                        <span>8324-6572</span>
                     </a>
 
                     <a

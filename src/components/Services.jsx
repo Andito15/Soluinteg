@@ -1,3 +1,5 @@
+import herramientaIcon from '../assets/herramientas.png'
+
 function Services() {
     const services = [
         'Remodelaciones',
@@ -18,12 +20,13 @@ function Services() {
 
                 <div className="services-grid">
                     {services.map((service, index) => (
-                        <article className="card service-card" key={index}>
+                        <article className="service-item" key={index}>
+                            <img
+                                src={herramientaIcon}
+                                alt="Icono de herramientas"
+                                className="service-icon"
+                            />
                             <h3>{service}</h3>
-                            <p>
-                                Espacio para agregar una descripción breve de este servicio cuando
-                                tengas la información completa.
-                            </p>
                         </article>
                     ))}
                 </div>
